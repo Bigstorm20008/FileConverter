@@ -1,6 +1,7 @@
 
 Source/FileConvertor.opensdf
 Source/Debug
+Source/Release
 *.sdf
 *.suo
 *.filters
