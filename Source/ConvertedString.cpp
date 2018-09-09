@@ -14,7 +14,7 @@ ConvertedString::ConvertedString(const std::wstring& currencyCode,
 	
 	setDateTime(unixTimeStamp);
 
-	m_filenameForSave = m_currencyCode + L"_" + m_year + m_month + m_hours + L".tck";
+	m_filenameForSave = m_currencyCode + L"_" + m_year + m_month + m_day + L".tck";
 }
 
 
@@ -102,5 +102,5 @@ const std::wstring& ConvertedString::getMonth()const
 
 const std::wstring ConvertedString::getStringForSave()const
 {
-	return m_currencyCode + L"," + m_year + m_month + m_hours + L"," + m_hours + m_minutes + m_seconds + L"," + m_ask + L"," + m_bid + L'\n';
+	return m_currencyCode + L"," + m_year + m_month + m_day + L"," + m_hours + m_minutes + m_seconds + L"," + m_ask + L"," + m_bid + L'\n';
 }

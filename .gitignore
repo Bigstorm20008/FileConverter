@@ -5,3 +5,5 @@ Source/Release
 *.sdf
 *.suo
 *.filters
+Database/Brokers.mdf
+Database/Brokers_log.ldf
